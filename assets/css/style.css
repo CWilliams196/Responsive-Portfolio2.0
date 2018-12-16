@@ -11,12 +11,12 @@
 }
 
 #menu {
-    background-color: #ffffff;
-    margin: 0 0 30px;
+    background-color: lightgray;
+    height: 70px;
     z-index: 99;
     border-bottom: 2px solid #cccccc;
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
     position: fixed;
 }
 
@@ -28,8 +28,8 @@
     font-size: 20px;
     line-height: 90px;
     font-weight: 700;
-    background-color: #4aaaa5;
-    color: #ffffff;
+    background-color: lightgray;
+    color: black;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-decoration: none;
 }
@@ -40,7 +40,7 @@ nav {
 }
 
 nav a {
-    color: #777777;
+    color: black;
     text-decoration: none;
     display: inline-block;
     border-left: 1px solid #efefef;
@@ -54,7 +54,7 @@ nav a:first-child {
 }
 
 a, p {
-    color: #777777;
+    color: black;
 }
 
 body {
@@ -66,7 +66,7 @@ body {
 h1, h2, h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: black;
 }
 
 h1, h2, h3, p {
@@ -85,17 +85,7 @@ h1 {
 }
 
 .main-box {
-    background-color:#ffffff;
-    padding: 30px;
-    margin: 0 0 100px 0;
-    width: 100%;
-    max-width: 650px;
-    float: left;
-    border: 1px solid #dddddd;
-}
-
-#form-box {
-    background-color:#ffffff;
+    background-color: lightgray;
     padding: 30px;
     margin: 0 0 100px 0;
     width: 100%;
@@ -112,8 +102,12 @@ h1 {
     margin-right: 25px;
 }
 
+.pic2 {
+    width: 200px;
+}
+
 .sidebar {
-        background: #fff;
+        background: lightgray;
         padding: 30px;
         width: 100%;
         max-width: 270px;
@@ -140,40 +134,9 @@ h3, sidebar, h2 {
     line-height: 22px;
 }
 
-label,
-input[type=text],
-textarea {
-    display: block;
-    width: 100%;
-}
-
-input[type=text],
-textarea {
-    height: 35px;
-    border: 1px soild #dddddd;
-    padding: 0 10px;
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-
-textarea {
-    height: 200px;
-}
-
-input[type=submit] {
-    background: #4aaaa5;
-    border: 0 none;
-    color: #fff;
-    font-size: 18px;
-    padding: 10px 30px;
-    cursor: pointer;
-}
-
 #foot {
-    background-color: #666666;
-    padding: 15px 0;
+    background-color: lightgray;
     clear: both;
-    border-top: 7px #4aaaa5 solid;
     width: 100%;
     font-size: 12px;
     position: fixed;
@@ -181,7 +144,7 @@ input[type=submit] {
     right: 0;
     left: 0;
     bottom: 0;
-    color: #dddddd
+    color: black;
 }
 
 @media only screen and (max-width: 980px) {
@@ -252,6 +215,7 @@ input[type=submit] {
 
     #menu {
         position: static;
+        height: 90px;
     }
 
     #logo {
